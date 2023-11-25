@@ -1,0 +1,76 @@
+body{
+    background: #08262d;
+    background-size: cover;
+    display: flex;
+}
+
+.home{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    left: 25%;
+    top: 4vh;
+}
+
+.projeto{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    left: 35%;
+    top: 4vh;
+}
+
+.sobre{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    left: 47%;
+    top: 4vh;
+}
+
+.login{
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #08262d;
+    width: 15vh;
+    left: 67%;
+    top: 4vh;
+}
+
+.login:hover, .cadastro:hover{
+    color: aliceblue;
+    background: #08262d;
+    transition: 1.2s;
+    border-radius: 10px ;
+}
+
+.cadastro{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #08262d;
+    width: 25vh;
+    left: 79%;
+    top: 4vh;
+}
+
+main{
+    position: absolute;
+    top: 27%;
+    font-size: 35px;
+    left: 10vh;
+    color: #e4e0d3;
+}
